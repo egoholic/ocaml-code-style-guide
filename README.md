@@ -21,6 +21,14 @@
 
 1.1. Open only extensively used modules.
 
+1.2. Open modules at the top level of a module.
+
+1.3. For most cases if you want to open a module - prefer local open:
+
+```ocaml
+let open Some_module in ...
+```
+
 ### 2. Module names
 ### 3. Module type & signature
 ### 4. Module nesting
