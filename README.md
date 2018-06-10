@@ -27,6 +27,8 @@
 
 ```ocaml
 let open Some_module in ...
+(* or *)
+Some_module.( ... )
 ```
 
 ### 2. Module names
