@@ -32,6 +32,9 @@ Some_module.( ... )
 ```
 
 ### 2. Module names
+2.1. The name of a module must start with an uppercase letter. For example: ```My_module```
+
+2.2. There are no such case restrictions on names of signatures, but by convention we will use names in uppercase for signatures. For example: ```MY_MODULE```
 ### 3. Module type & signature
 ### 4. Module nesting
 
